@@ -212,7 +212,7 @@
 
     <section class="trending" id="food">
       <div class="trending__sushi">
-        <div class="trending__content">
+        <div class="trending__content" data-aos="fade-right">
           <p class="sushi__subtitle">What’s Trending / トレンド</p>
           <h3 class="sushi__title">Japanese Sushi</h3>
           <p class="sushi__description">
@@ -220,68 +220,51 @@
           </p>
 
           <ul class="trending__list">
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Make Sushi
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Make Sushi</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Oshizushi
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Oshizushi</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Uramaki Sushi
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Uramaki Sushi</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Nigiri Sushi
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Nigiri Sushi</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Temaki Sushi
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Temaki Sushi</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Inari Sushi
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Inari Sushi</p>
+              </div>
             </li>
           </ul>
         </div>
 
-        <div class="trending__image trending__image-sushi">
+        <div class="trending__image trending__image-sushi" data-aos="fade-left">
           <img src="assets/sushi-5.png" alt="sushi-5" />
         </div>
-      </div>
 
-      <button class="trending__button">Discover</button>
+        <div class="trending__discover" data-aos="zoom-in"><p>Discover</p></div>
+      </div>
 
       <div class="trending__drinks">
         <div class="trending__image trending__image-drinks">
@@ -296,64 +279,75 @@
           </p>
 
           <ul class="trending__list">
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Oruncha
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Oruncha</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Sakura Tea
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Sakura Tea</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-
-              Aojiru
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Aojiru</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Ofukucha
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Ofukucha</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Kombu-cha
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Kombu-cha</p>
+              </div>
             </li>
-
-            <li class="trending__list-item">
-              <img
-                class="trending__list-icon"
-                src="assets/check.svg"
-                alt="check"
-              />
-              Mugicha
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Mugicha</p>
+              </div>
             </li>
           </ul>
         </div>
       </div>
     </section>
+
+    <section class="subscription" id="services">
+      <h2 class="subscription__title">
+        Get offers straight <br />
+        to your inbox
+      </h2>
+      <p class="subscription__subtitle">Sign up for the Sushiman newsletter</p>
+      <div class="subscription__form">
+        <input type="text" placeholder="Enter your email address" />
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h3 class="footer__logo">Sushi<span>man</span></h3>
+
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li><img src="/assets/facebook.svg" alt="facebook" /></li>
+        <li><img src="/assets/instagram.svg" alt="instagram" /></li>
+        <li><img src="/assets/twitter.svg" alt="twitter" /></li>
+      </ul>
+    </footer>
 
     <script src="js/script.js" type="module"></script>
   </body>
