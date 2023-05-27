@@ -53,6 +53,10 @@
   cursor: pointer;
 }
 
+.header__menu li:hover {
+  color: var(--primary-color);
+}
+
 .header__menu li img {
   width: 24px;
   height: 24px;

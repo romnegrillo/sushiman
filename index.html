@@ -14,11 +14,11 @@
     <header>
       <nav class="header__nav">
         <div class="header__logo">
-          <h4>Sushiman</h4>
+          <h4 data-aos="fade-down">Sushiman</h4>
           <div class="header__logo-overlay"></div>
         </div>
 
-        <ul class="header__menu">
+        <ul class="header__menu" data-aos="fade-down">
           <li>
             <a href="#menu">Menu</a>
           </li>
@@ -40,7 +40,7 @@
           </li>
         </ul>
 
-        <ul class="header__menu-mobile">
+        <ul class="header__menu-mobile" data-aos="fade-down">
           <li>
             <img src="assets/menu.svg" alt="menu" />
           </li>
@@ -50,8 +50,8 @@
 
     <section class="hero">
       <div class="hero-image">
-        <img src="assets/sushi-1.png" alt="sushi" />
-        <h2>
+        <img src="assets/sushi-1.png" alt="sushi" data-aos="fade-up" />
+        <h2 data-aos="fade-up">
           日 <br />
           本 <br />
           食
@@ -61,7 +61,7 @@
       </div>
 
       <div class="hero-content">
-        <div class="hero-content-info">
+        <div class="hero-content-info" data-aos="fade-left">
           <h1>Feel the Taste of Japanese Food</h1>
           <p>Feel the taste of Japanese food from anywhere and anytime.</p>
 
@@ -74,7 +74,7 @@
           </div>
         </div>
 
-        <div class="hero-content__testimonials">
+        <div class="hero-content__testimonials" data-aos="fade-up">
           <div class="hero-content-customer flex-center">
             <h4>24<span>K+</span></h4>
             <p>Happy Customers</p>
@@ -94,7 +94,7 @@
     <section class="about-us" id="about-us">
       <div class="about-us__image">
         <div class="about-us__image-sushi-3">
-          <img src="assets/sushi-3.png" alt="sushi-3" />
+          <img src="assets/sushi-3.png" alt="sushi-3" data-aos="fade-right" />
         </div>
 
         <button class="about-us__button">
@@ -103,11 +103,11 @@
         </button>
 
         <div class="about-us__image-sushi-2">
-          <img src="assets/sushi-2.png" alt="sushi-2" />
+          <img src="assets/sushi-2.png" alt="sushi-2" data-aos="fade-right" />
         </div>
       </div>
 
-      <div class="about-us__content">
+      <div class="about-us__content" data-aos="fade-left">
         <p class="sushi__subtitle">About Us / 私たちに関しては</p>
         <h3 class="sushi__title">
           Our mission is to bring true Japanese flavours to you.
@@ -121,9 +121,14 @@
     </section>
 
     <section class="popular-foods" id="menu">
-      <h2 class="popular-foods__title">Popular Food / 人気</h2>
+      <h2 class="popular-foods__title" data-aos="flip-up">
+        Popular Food / 人気
+      </h2>
 
-      <div class="popular-foods__filters sushi__hide-scrollbar">
+      <div
+        class="popular-foods__filters sushi__hide-scrollbar"
+        data-aos="fade-up"
+      >
         <button class="popular-foods__filter-btn active">All</button>
 
         <button class="popular-foods__filter-btn">
@@ -147,10 +152,56 @@
         </button>
 
         <button class="popular-foods__filter-btn">All</button>
+      </div>
 
-        <div class="popular-foods__catalogue">
-          <!-- Fill with JS later.-->
-        </div>
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="assets/sushi-12.png"
+            alt="sushi-12"
+          />
+          <h4 class="popular-foods__card-title">Chezu Sushi</h4>
+          <div class="popular-foods__card-details">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+            <p class="popular-foods__card-price">$21</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card active-card">
+          <img
+            class="popular-foods__card-image"
+            src="assets/sushi-11.png"
+            alt="sushi-11"
+          />
+          <h4 class="popular-foods__card-title">Original Sushi</h4>
+          <div class="popular-foods__card-details">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+            <p class="popular-foods__card-price">$19</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="assets/sushi-10.png"
+            alt="sushi-10"
+          />
+          <h4 class="popular-foods__card-title">Ramen Legendo</h4>
+          <div class="popular-foods__card-details">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.7</p>
+            </div>
+            <p class="popular-foods__card-price">$13</p>
+          </div>
+        </article>
       </div>
 
       <button class="popular-foods__button">
@@ -158,6 +209,145 @@
         <img src="assets/arrow-right.svg" alt="arrow-right" />
       </button>
     </section>
+
+    <section class="trending" id="food">
+      <div class="trending__sushi">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="sushi__subtitle">What’s Trending / トレンド</p>
+          <h3 class="sushi__title">Japanese Sushi</h3>
+          <p class="sushi__description">
+            Feel the taste of the most delicious Sushi here.
+          </p>
+
+          <ul class="trending__list">
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Make Sushi</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Oshizushi</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Uramaki Sushi</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Nigiri Sushi</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Temaki Sushi</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Inari Sushi</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="trending__image trending__image-sushi" data-aos="fade-left">
+          <img src="assets/sushi-5.png" alt="sushi-5" />
+        </div>
+
+        <div class="trending__discover" data-aos="zoom-in"><p>Discover</p></div>
+      </div>
+
+      <div class="trending__drinks">
+        <div class="trending__image trending__image-drinks">
+          <img src="assets/sushi-4.png" alt="sushi-4" />
+        </div>
+
+        <div class="trending__content">
+          <p class="sushi__subtitle">What’s Trending / トレンド</p>
+          <h3 class="sushi__title">Japanese Drinks</h3>
+          <p class="sushi__description">
+            Feel the taste of the most delicious Japense drinks here.
+          </p>
+
+          <ul class="trending__list">
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Oruncha</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Sakura Tea</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Aojiru</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Ofukucha</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Kombu-cha</p>
+              </div>
+            </li>
+            <li>
+              <div class="trending__list-item">
+                <img src="assets/check.svg" alt="check" />
+                <p>Mugicha</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscription" id="services">
+      <h2 class="subscription__title">
+        Get offers straight <br />
+        to your inbox
+      </h2>
+      <p class="subscription__subtitle">Sign up for the Sushiman newsletter</p>
+      <div class="subscription__form">
+        <input type="text" placeholder="Enter your email address" />
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <h3 class="footer__logo">Sushi<span>man</span></h3>
+
+      <ul class="footer__nav">
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#food">Food</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about-us">About Us</a></li>
+      </ul>
+
+      <ul class="footer__social">
+        <li><img src="/assets/facebook.svg" alt="facebook" /></li>
+        <li><img src="/assets/instagram.svg" alt="instagram" /></li>
+        <li><img src="/assets/twitter.svg" alt="twitter" /></li>
+      </ul>
+    </footer>
 
     <script src="js/script.js" type="module"></script>
   </body>
