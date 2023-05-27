@@ -2,8 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px;
+  padding: 20px 40px;
   background-color: #fff;
+
+  flex-wrap: wrap;
 }
 
 .footer__logo {
@@ -11,6 +13,8 @@
   font-family: var(--playfair-display);
   font-size: 24px;
   color: var(--primary-color);
+
+  cursor: pointer;
 }
 
 .footer__logo span {
@@ -24,11 +28,12 @@
 
   display: flex;
   align-items: center;
-  justify-content: center;
+
+  flex-wrap: wrap;
 }
 
 .footer__nav {
-  gap: 50px;
+  gap: 64px;
 
   text-transform: uppercase;
   font-family: var(--plus-jakarta-sans);
@@ -52,4 +57,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  cursor: pointer;
+}
+
+.footer__logo,
+.footer__nav,
+.footer__social {
+  margin-bottom: 20px;
 }
