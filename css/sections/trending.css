@@ -1,5 +1,6 @@
 .trending {
   position: relative;
+  overflow: hidden;
 }
 
 .trending__sushi,
@@ -29,7 +30,7 @@
 }
 
 .trending__image img {
-  width: 254px;
+  max-width: 254px;
   height: 260px;
   align-self: center;
 
