@@ -33,13 +33,16 @@
 }
 
 .footer__nav {
-  gap: 64px;
+  gap: 36px;
 
   text-transform: uppercase;
   font-family: var(--plus-jakarta-sans);
   font-weight: 500;
 }
 
+.footer__nav li:hover {
+  color: var(--primary-color);
+}
 .footer__social {
   gap: 30px;
 }
@@ -61,8 +64,12 @@
   cursor: pointer;
 }
 
+.footer__social li:hover {
+  background-color: var(--primary-color);
+}
+
 .footer__logo,
 .footer__nav,
 .footer__social {
-  margin-bottom: 20px;
+  margin: 10px 0px;
 }
