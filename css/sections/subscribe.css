@@ -85,4 +85,10 @@
   outline: none;
 
   cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.subscription__form button:hover {
+  scale: 1.05;
 }

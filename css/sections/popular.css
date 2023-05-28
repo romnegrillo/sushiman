@@ -99,6 +99,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  transition: 0.3s;
+}
+
+.popular-foods__button:hover {
+  scale: 1.05;
 }
 
 .popular-foods__button img {

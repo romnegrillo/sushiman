@@ -64,6 +64,12 @@
   line-height: 23px;
 
   cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.about-us__button:hover {
+  scale: 1.05;
 }
 
 .about-us__button img {

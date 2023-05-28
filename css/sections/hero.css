@@ -33,6 +33,7 @@
   font-family: var(--playfair-display);
   font-size: 120px;
   line-height: 128px;
+  color: #fff;
 }
 
 .hero-content {
@@ -87,6 +88,7 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 23px;
+  transition: 0.3s;
 }
 
 .hero-content__play-button {
@@ -104,6 +106,12 @@
   font-family: var(--plus-jakarta-sans);
 
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-content__order-button:hover,
+.hero-content__play-button:hover {
+  scale: 1.05;
 }
 
 .hero-content__play-button img {
